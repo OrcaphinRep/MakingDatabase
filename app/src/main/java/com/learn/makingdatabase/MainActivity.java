@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity
         getUsernameInfo= (EditText) findViewById(R.id.userNameEdit);
         updater= (Button) findViewById(R.id.Update);
         deleter= (Button) findViewById(R.id.Delete);
+        //Using save button by onClickListener
         save.setOnClickListener(new View.OnClickListener()
         {
             @Override
